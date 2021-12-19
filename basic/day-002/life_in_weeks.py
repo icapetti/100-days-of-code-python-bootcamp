@@ -1,0 +1,14 @@
+DAYS_IN_YEAR = 365
+MONTHS_IN_YEAR = 12
+DAYS_IN_WEEK = 7
+WEEKS_IN_YEAR = 52
+EXPECTED_AGE = 90
+
+EXPECTED_DAYS = EXPECTED_AGE * DAYS_IN_YEAR
+EXPECTED_MONTHS = EXPECTED_AGE * MONTHS_IN_YEAR
+EXPECTED_WEEKS = EXPECTED_AGE * WEEKS_IN_YEAR
+
+print('Welcome to the Your life in weeks!')
+age = int(input('What is your age? '))
+
+print(f'You have {EXPECTED_DAYS - (age * DAYS_IN_YEAR)} days, {EXPECTED_WEEKS - (age * WEEKS_IN_YEAR)} weeks and {EXPECTED_MONTHS - (age * MONTHS_IN_YEAR)} months left.')
